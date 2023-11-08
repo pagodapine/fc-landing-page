@@ -24,14 +24,65 @@ ul {
     gap: 16px;
 }
 
+.cta, button {
+    background-color: #3882f6;
+}
+
+button {
+    padding: 4px 16px;
+    border: none;
+    border-radius: 4px;
+}
+
 .header {
     display: flex;
     justify-content: space-between;
 }
 
+.logo {
+    font-size: 24px;
+}
+
 .hero {
     display: flex;
     justify-content: center;
+    align-items: center;
+}
+
+.hero-left, .hero-right {
+    flex: 1;
+    
+}
+
+.hero-left {
+    text-align: left;
+    padding: 0;
+    margin: 0;
+}
+
+.hero-right {
+    text-align: right;
+}
+
+.hero-left .main-text {
+    font-size: 48px;
+    padding: 0;
+    margin: 0;
+    font-weight: 800;
+    background-color: aqua;
+}
+
+.hero-left .sub-text {
+    font-size: 18px;
+    padding: 0;
+    margin: 0;
+    background-color: blue;
+    
+}
+
+.hero-right > img {
+    width: 300px;
+    height: auto;
 }
 
 .card-container, .cta-container {
@@ -40,6 +91,8 @@ ul {
 
 .card-header {
     text-align: center;
+    font-size: 36px;
+    font-weight: 800;
 }
 
 .card-body {
@@ -61,13 +114,47 @@ ul {
     text-align: center;
 }
 
+.quote > p {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 300;
+}
+
 .cta {
     display: flex;
-    
 }
+
+
 
 .footer {
     display: flex;
     justify-content: center;
     align-items: center;
 }
+
+/* Questions 
+
+GENERAL
+1. Is there a way to EASILY ADD PADDING TO THE WHOLE SITE?
+    - Currently, I created the "sections" class and added padding.
+
+HEADER
+1. How do you make the left and right hero sections line up vertically?
+
+HERO
+
+
+CARDS
+
+
+QUOTE
+
+
+CTA
+
+
+FOOTER
+
+
+
+/*
